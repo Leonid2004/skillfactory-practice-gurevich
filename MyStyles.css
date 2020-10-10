@@ -1,0 +1,618 @@
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('Open_Sans/OpenSans-Light.ttf');
+}
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url('Open_Sans/OpenSans-ExtraBold.ttf');
+}
+@font-face {
+	font-family: 'Open Sans Italic';
+	src:url('Open_Sans/OpenSans-LightItalic.ttf');
+}
+body, html {
+  overflow-x: hidden;
+}
+.headerA {
+display: flex;
+border: 2px solid black;
+flex-direction: row;
+background-color: rgb(49, 48, 48);
+max-width: 1092px;
+max-height: 71px;
+min-width: 100px;
+min-height: 71px;
+height: 71px;
+width: 1092px;
+margin-right: 140px;
+margin-left: 140px;
+top: 5px;
+}
+.FirstText {
+display: flex;
+flex-direction: column;
+background-color: rgb(246, 242, 242);
+}
+.Button {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	color: white;
+	border: 2px solid rgb(49, 48, 48);
+	background-color: rgb(49, 48, 48); 
+	text-decoration: none;
+	max-height: 65px;
+	max-width: 100px;
+	height: 65px;
+	width: 100px;
+	min-width: 20px;
+	min-height: 10px;
+ 	left: 250px;
+ 	margin-left: 40px;
+}
+.Button:hover {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	color: white;
+	border: 2px solid rgb(255, 0, 0);
+	background-color: rgb(255, 0, 0);
+	text-decoration: none;
+	max-height: 65px;
+	max-width: 100px;
+	height: 65px;
+	width: 100px;
+	min-width: 20px;
+	min-height: 10px;
+	left: 250px;
+	margin-left: 40px;
+}
+.HomeText {
+	position: relative;
+	top: 18px;
+	font-size: 14px;
+	padding-left: 27px;
+	font-family: 'Open Sans Bold';
+}
+
+.PorfolioText {
+	position: relative;
+	top: 18px;
+	font-size: 14px;
+	padding-left: 8px;
+	font-family: 'Open Sans Bold';
+}
+.aboutText {
+	position: relative;
+	top: 18px;
+	font-size: 14px;
+	padding-left: 13px;
+	font-family: 'Open Sans Bold';
+}
+.ContactText {
+	position: relative;
+	top: 18px;
+	font-size: 14px;
+	padding-left: 15px;
+	font-family: 'Open Sans Bold';
+}
+@media screen and (max-width: 970px) {
+.Button {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	color: white;
+	border: 2px solid rgb(49, 48, 48);
+	background-color: rgb(49, 48, 48); 
+	text-decoration: none;
+	max-height: 65px;
+	max-width: 100px;
+	height: 65px;
+	width: 100px;
+	min-width: 20px;
+	min-height: 10px;
+ 	left: 250px;
+ 	margin-left: 1px;
+}
+.Button:hover {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	color: white;
+	border: 2px solid rgb(255, 0, 0);
+	background-color: rgb(255, 0, 0);
+	text-decoration: none;
+	max-height: 65px;
+	max-width: 100px;
+	height: 65px;
+	width: 100px;
+	min-width: 20px;
+	min-height: 10px;
+	left: 250px;
+	margin-left: 1px;
+}
+}
+@media screen and (max-width: 850px) {
+.Button{
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	color: white;
+	border: 2px solid rgb(49, 48, 48);
+	background-color: rgb(49, 48, 48); 
+	text-decoration: none;
+	max-height: 65px;
+	max-width: 100px;
+	height: 65px;
+	width: 100px;
+	min-width: 20px;
+	min-height: 10px;
+ 	left: 100px;
+}	
+.Button:hover {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	color: white;
+	border: 2px solid rgb(255, 0, 0);
+	background-color: rgb(255, 0, 0);
+	text-decoration: none;
+	max-height: 65px;
+	max-width: 100px;
+	height: 65px;
+	width: 100px;
+	min-width: 20px;
+	min-height: 10px;
+	left: 100px;
+}
+}
+#bigHead {
+	display: flex;
+	position: relative;
+	font-weight: bold;
+	left: 122px;
+	font-size: 50px;
+	top: 55px;
+	font-family: 'Open Sans Bold';
+
+
+}
+
+.firstPageText {
+	display: flex;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-left: 120px;
+	color: grey;
+	margin-top: -40px;
+	font-family: 'Open Sans';
+}
+
+.vidos{
+	padding-left: 850px;
+	width: 400px;
+	height: 275px;
+	max-width: 400px;
+	max-height: 275px;
+	min-width: 150px;
+	min-height: 95px;
+	margin-top: 370px;
+
+}
+.pandimg {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: -450px;
+}
+#contactButton {
+	display: flex;
+	margin-top: 100px;
+	margin-left: 230px;
+	border: 2px solid red;
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 7px;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	top: 524px;
+	margin-bottom: 35px;
+	justify-content: center;
+
+}
+.WhatWeCanProvideText {
+	display: inline-block;
+	background-color: white;
+}
+#doYou {
+	display: inline-block;
+	top: 795px;
+	margin-left: 164px;
+	font-family: 'Open Sans Bold';
+	font-size: 42px;
+	}
+.fishText2 {
+position: absolute;
+width: 539px;
+height: 98px;
+left: 164px;
+margin-top: 50px;
+font-family: Open Sans;
+
+}
+
+
+.LearnButton {
+position: relative;
+display: inline-block;
+border: 2px solid red;
+right: 515px;
+top: 300px;
+font-family: 'Open Sans';
+font-size: 18px;
+padding-left: 70px;
+padding-right: 70px;
+text-decoration: none;
+width: 100px;
+height: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: red;
+}
+
+.MLUA {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	top: 800px;
+	margin-left: 800px;
+	flex-wrap: wrap;
+}
+
+h3 {
+display: flex;
+font-family: 'Open Sans';
+font-size: 26px;
+margin-right: 155px;
+flex-wrap: wrap;
+margin-bottom: 110px;
+
+}
+.MLUATEXTS {
+	display: flex;
+	margin-left: 790px;
+	flex-wrap: wrap;
+}
+.PP2 {
+	position: relative;
+    display: inline-block;
+	bottom: 50px;
+	margin-right: 35px;
+	margin-bottom: 75px;
+}
+@media screen and (max-width: 1066px){
+h3 {
+display: flex;
+font-family: 'Open Sans';
+font-size: 26px;
+margin-right: 155px;
+margin-bottom: 280px;
+
+}
+.PP2 {
+	position: relative;
+    display: inline-block;
+	bottom: 50px;
+	margin-right: 35px;
+	margin-bottom: 150px;
+}
+}
+.FeatureHeader {
+	margin-left: 500px;
+	font-family: 'Open Sans';
+	font-size: 42px;
+}
+.UnderHeaderFeature {
+	margin-left: 450px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	margin-top: 0;
+}
+.forMargin {
+	position: relative;
+	margin-left: 150px;
+}
+.TypeChoice {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.firstAll {
+	margin-left: 290px;
+}
+.blueBoxes {
+	text-decoration: none;
+	margin-right: 80px;
+	color: black;
+
+}
+.blueBoxes:hover {
+	text-decoration: none;
+	margin-right: 80px;
+	color: red;
+
+}
+.BlueSquares {
+	display: flex;
+	width: 1000px;
+	height: 670px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	justify-content: space-between;
+	margin-left: 200px;
+}
+
+.BlueImg {
+	position: relative;
+	display: flex;
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
+.MeetTeamHead {
+	margin-left: 150px;
+	font-size: 30px;
+	font-family: 'Open Sans Bold';
+}
+.FishAfterMeet {
+	font-family: 'Open Sans';
+	 margin-left: 148px;
+	 font-size: 16px;
+}
+#rectangle{
+    width:115px;
+    height:5px;
+    background:red;
+    margin-left: 150px;
+}
+
+.BigFirstRectangle {
+   width: 324px;
+    height: 460px;
+    background:red;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.FourRects {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.redRect {
+	min-width: 20px;
+	min-height: 50px;
+    max-width: 150px;
+    max-height: 180px;
+    width: 150px;
+    height: 180px;
+    background:red;
+    margin-top: 380px;	
+    margin-left: 40px;
+}
+.waughM {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 30px;
+}
+.PaboutMark {
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 250px;
+}
+.TextAfterMark {
+font-family: 'Open Sans';
+}
+
+.forRedRectSokina {
+	position: absolute;
+	display: block;
+	border: 1px solid rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.2);
+	margin-left: 515px;
+	margin-top: 530px;
+	padding-top: 2px;
+	width: 117px;
+	height: 25px;
+	padding-left: 30px;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color: white;
+}
+
+
+.Subsciption {
+	margin-top: 100px;
+	padding-top: 80px;
+    background-color: rgb(40,38,38);
+    color: white;
+    padding-left: 290px;
+    height: 450px;
+    font-size: 25px;
+}
+.FieldAndButton {
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+.emailField {
+	display: flex;
+	border: white 1px solid;
+	width: 310px;
+	height: 40px;
+    background-color: white;
+    color: grey;
+    font-size: 15px;
+    align-items: center;
+}
+.SubsrtButton {
+	color: white;
+	border: 2px red solid;
+	background-color: red;
+	width: 140px;
+	height: 40px;
+	font-family: 'Open Sans Bold';
+	font-size: 18px;
+	margin-left: 25px;
+}
+
+.GetInTouchCont {
+	background-color: white;
+	height: 655px;
+
+}
+.GetInTheTouchHead {
+	margin-left: 125px;
+	font-family: 'Open Sans Bold';
+	font-size: 30px;
+}
+.loremAfterTouch {
+  margin-top: 40px;
+  margin-left: 120px;
+  font-family: 'Open Sans';	
+}
+
+#NameAndMail {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.theNameField {
+	position: absolute;
+	display: flex;
+	border: 1px solid white;
+	background-color: rgb(229, 229, 229);
+	width: 342px;
+    height: 50px;
+    margin-left: 122px;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.redLine {
+	border:3px solid red;
+	width: 90px;
+	margin-left: 120px;
+}
+
+.BiggestForm {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.YourNameInput {
+	height: 40px;
+	width: 300px;
+}
+
+.YourMailInput {
+	height: 40px;
+	width: 300px;
+	margin-left: 20px;
+}
+
+#BigMessageInput {
+max-width: 630px;
+ max-height: 230px;
+ min-width: 200px;
+ min-height: 100px;
+width: 630px;
+ height: 230px;
+ margin-top: 30px;
+}
+.SendBigMessage {
+	display: flex;
+	margin-top: 20px;
+	width: 630px;
+	background-color: red;
+	border: 1px red solid;
+	height: 35px;
+	padding-left: 250px;
+	padding-top: 7px;
+	color: white;
+	font-family: 'Open Sans';
+	font-weight: bold;
+
+}
+.ContactInfoCont {
+	position: absolute;
+	width: 420px;
+	height: 380px;
+	background-color: rgb(45, 45, 45);
+	margin-left: 950px;
+	margin-top: 100px;
+}
+.ContactLabelInWindow {
+	color: white;
+	padding-top: 90px;
+	padding-left: 60px;
+
+}
+
+.ContactingAdress {
+color: white;
+margin-top: 25px;
+padding-left: 60px;
+
+}
+
+
+.emailForContactingBangladesh {
+	color: white;
+	padding-left: 60px;
+}
+
+footer {
+	display: flex;
+	border: 1px solid rgb(45,45,45);
+	background-color: rgb(45,45,45);
+	color: grey;
+	height: 65px;
+	align-content: center;
+	align-items: center;
+	padding-left: 85px;
+}
+
+.Logos {
+	padding-left: 800px;
+}
+
+.theLogo {
+	padding-left: 12px;
+}
+
+.firstInput {
+	height: 40px;
+	width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
